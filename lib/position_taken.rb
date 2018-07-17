@@ -2,7 +2,7 @@
 
 def position_taken(index)
   tempPos = board[index]
-  if tempPos == "X" || tempPos == "O"
+  if tempPos == " "
     return true
   else
     return false
