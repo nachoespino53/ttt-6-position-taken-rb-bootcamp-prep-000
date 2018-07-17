@@ -5,7 +5,7 @@ def position_taken?(board, index)
   if index == nil
     return false
   end
-  if tempPos == " " || tempPos == ""
+  if tempPos == " " || tempPos == "" || tempPos == nil
     return false
   else
     return true
