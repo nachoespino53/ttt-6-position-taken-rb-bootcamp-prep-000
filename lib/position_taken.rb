@@ -1,10 +1,10 @@
 # code your #position_taken? method here!
 
-def position_taken(index)
+def position_taken(board, index)
   tempPos = board[index]
   if tempPos == " "
-    return true
-  else
     return false
+  else
+    return true
   end
 end
